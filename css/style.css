@@ -74,10 +74,41 @@ h3 {
     font-family: 'Open Sans';
 }
 
+.section-title-centered {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #8C516D;
+    font-family: 'Fraunces';
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+}
 
+.h2-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #6E5C5B;
+    margin-top: auto;
+    margin-bottom: auto;
 
+}
 
+.padre {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
+.hijo {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
 
+}
+
+.h3-content {
+    margin-bottom: auto;
+}
 
 
