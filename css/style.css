@@ -163,4 +163,45 @@ h3 {
 
 }
 
+.fun-content {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+}
 
+.photo {
+    width: 192px;
+    height: 192px;
+    display: flex;
+}
+
+.up-images {
+    display: flex;
+    gap: 6px;
+}
+
+.down-images {
+    display: flex;
+    gap: 6px;
+}
+
+.images {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+
+.without-padding {
+    padding: 12px 0 12px 0;
+}
+
+.phrase {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: bold;
+    color: #797676;
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
