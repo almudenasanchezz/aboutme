@@ -111,4 +111,56 @@ h3 {
     margin-bottom: auto;
 }
 
+.bg-colored {
+    background-color: #8C516D;
+    color: white;
+    border-radius: 14px;
+}
+
+.section-title-centered-white {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #8C516D;
+    font-family: 'Fraunces';
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.accordion {
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    background: none;
+    transition: all 0.4s ease-out;
+    border-radius: 0;
+    border-top: 1px solid white;
+}
+
+.last-element {
+    border-bottom: 1px solid white;
+}
+
+.accordion-content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0 1rem;
+    max-height: 0;
+}
+
+.accordion:after {
+    content: "\002B";
+    float: right;
+    font-weight: 600;
+
+}
+
 
