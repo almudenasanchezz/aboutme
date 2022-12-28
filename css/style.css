@@ -91,7 +91,6 @@ h3 {
     color: #6E5C5B;
     margin-top: auto;
     margin-bottom: auto;
-
 }
 
 .padre {
@@ -205,3 +204,41 @@ h3 {
     margin-top: 42px;
     margin-bottom: 42px;
 }
+
+.all-hobbies,
+.up-hobbies {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.hobbie {
+    display: flex;
+    background-color: #EDEBE8;
+    padding: 12px;
+    gap: 24px;
+    border-radius: 14px;
+    align-items: center;
+}
+
+.hobbie-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 14px;
+}
+
+.hobbie-description {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    display: flex;
+}
+
+.down-hobbies {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+
+
