@@ -148,11 +148,12 @@ h3 {
     border-bottom: 1px solid white;
 }
 
-.accordion-content {
+.content {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     padding: 0 1rem;
     max-height: 0;
+    display: none;
 }
 
 .accordion:after {
