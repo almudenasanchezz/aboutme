@@ -280,3 +280,31 @@ h3 {
     border-radius: 50%;
     font-size: 16px;
 } 
+
+@media all and (min-width: 415px) {
+    .img-header {
+      width: 100%;
+      height: 500px;
+    }
+
+    .content-up {
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+
+    .content-down {
+        flex-direction: column-reverse;
+    }
+
+    .hi {
+        font-size: 36px;
+    }
+
+  }
