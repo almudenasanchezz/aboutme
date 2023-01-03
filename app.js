@@ -1,13 +1,9 @@
-let elementosAcordeon = document.getElementsByClassName("accordion");
+let elementosAcordeon = document.querySelectorAll("button[data-accordion-section-ref]");
 
-for (let i = 0; i< elementosAcordeon.length; i++){
-    elementosAcordeon[1].addEventListener("click",function(){
-        this.classList.toggle("active");
-        let content = this.nextElementSibling;
-        if(content.style.display == "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    })
-}
+elementosAcordeon.forEach(accordionButtonNode => {
+  accordionButtonNode.addEventListener('click', function() {
+    const accordionSection = this.getAttribute('data-accordion-section-ref');
+    const element = document.querySelector(`[data-accordion-section=${accordionSection}]`)
+    element.classList.toggle('accordion-visible');    
+  });
+})

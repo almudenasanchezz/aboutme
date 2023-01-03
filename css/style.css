@@ -153,7 +153,10 @@ h3 {
     transition: max-height 0.2s ease-out;
     padding: 0 1rem;
     max-height: 0;
-    display: none;
+}
+
+.accordion-visible {
+    max-height: 100px;
 }
 
 .accordion:after {
@@ -332,6 +335,16 @@ h3 {
     }
 
     .hi {
+        font-size: 36px;
+    }
+
+    .section-title,
+    .section-title-centered,
+    .section-title-centered-white {
+        font-size: 48px;
+    }
+
+    .phrase {
         font-size: 36px;
     }
 
