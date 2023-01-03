@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <script src="js/app.js" type="text/javascript"></script>
 
     <header>
         <div class="content-up" >
@@ -94,7 +93,7 @@
             </div>  
 
             <button class="accordion" data-accordion-section-ref="dedicated">Dedicated</button>
-            <div class="content accordion-visible" data-accordion-section="openMinded">
+            <div class="content accordion-visible" data-accordion-section="dedicated">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -114,12 +113,14 @@
                 </p>
             </div>  
 
-            <button class="accordion last-element" data-accordion-section-ref="proactive">Proactive</button>
+            <button class="accordion" data-accordion-section-ref="proactive">Proactive</button>
             <div class="content accordion-visible" data-accordion-section="proactive"> 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-            </div>  
+            </div>
+            <button class="accordion-last" ></button>
+
         </section>
 
         <section class="without-padding">
@@ -242,5 +243,6 @@
         </section>
         
     </main>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
