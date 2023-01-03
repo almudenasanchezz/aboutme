@@ -1,7 +1,9 @@
-const acordeon = document.getElementsByClassName('contenedor');
+let elementosAcordeon = document.querySelectorAll("button[data-accordion-section-ref]");
 
-for (i=0; i<acordeon.length; i++) {
-  acordeon[i].addEventListener('click', function () {
-    this.classList.toggle('activa')
-  })
-}
+elementosAcordeon.forEach(accordionButtonNode => {
+  accordionButtonNode.addEventListener('click', function() {
+    const accordionSection = this.getAttribute('data-accordion-section-ref');
+    const element = document.querySelector(`[data-accordion-section=${accordionSection}]`)
+    element.classList.toggle('accordion-visible');    
+  });
+})
