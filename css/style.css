@@ -12,7 +12,7 @@ header {
 
 .top-bar ul {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #341D22;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -369,7 +369,7 @@ h3 {
 
 .low-bar ul {
     text-align: right;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #341D22;
     list-style-type: none;
     margin: auto;
     padding: 0;
