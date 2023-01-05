@@ -10,6 +10,32 @@ header {
     border-radius: 14px;
 }
 
+.top-bar ul {
+    text-align: center;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar li {
+    display: flex;
+}
+
+.top-bar a {
+    color: #341D22;
+    text-decoration:none;
+    font-size: 16px;
+    font-family: 'Courier';
+}
+
+.top-bar a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 h1 {
     font-size: 24px;
     margin-top: 26px;
@@ -306,6 +332,7 @@ h3 {
 
 .contact {
     display: flex;
+    justify-content: space-between;
 }
 
 .contact-title {
@@ -339,6 +366,26 @@ h3 {
     border-radius: 50%;
     font-size: 16px;
 } 
+
+.low-bar ul {
+    text-align: right;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+.low-bar a {
+    color: #341D22;
+    text-decoration:none;
+    font-size: 16px;
+    font-family: 'Courier';
+}
+
+.low-bar a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
 
 @media all and (min-width: 415px) {
     .img-header {
