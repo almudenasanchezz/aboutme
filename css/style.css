@@ -174,7 +174,8 @@ h3 {
     color: white;
 }
 
-.accordion {
+.accordion,
+.accordion-last {
     color:white;
     font-size: 16px;
     font-weight: 600;
@@ -192,21 +193,6 @@ h3 {
     padding-right: 0;
 }
 
-.accordion-last {
-    color:white;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Open Sans';
-    margin-top: auto;
-    margin-bottom: auto;
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    background: none;
-    transition: all 0.4s ease-out;
-    border-radius: 0;
-    border-top: 1px solid white;
-}
 
 .content {
     overflow: hidden;
@@ -298,7 +284,8 @@ h3 {
 }
 
 .all-hobbies,
-.up-hobbies {
+.up-hobbies,
+.down-hobbies {
     display: flex;
     gap: 24px;
     flex-direction: column;
@@ -331,11 +318,6 @@ h3 {
     display: flex;
 }
 
-.down-hobbies {
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
-}
 
 .contact {
     display: flex;
@@ -404,20 +386,24 @@ h3 {
         margin-bottom: 0px;
     }
 
-    h1 {
+    h1,
+    .hi,
+    .phrase {
         font-size: 36px;
     }
 
-    button {
+    button,
+    h3,
+    .accordion,
+    .accordion-last,
+    .hobbie-description,
+    .top-bar a,
+    .low-bar a {
         font-size: 24px;
     }
 
     .content-down {
         flex-direction: column-reverse;
-    }
-
-    .hi {
-        font-size: 36px;
     }
 
     .section-title,
@@ -426,8 +412,58 @@ h3 {
         font-size: 48px;
     }
 
-    .phrase {
-        font-size: 36px;
+    .h2-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .h3-content {
+        text-align: center;
+    }
+
+    .padre {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description-content,
+    .fun-content {
+        font-size: 16px;
+    }
+
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .images {
+        flex-direction: row;
+    }
+
+    .photo .layer p,
+    .contact-text {
+        font-size: 32px;
+    }
+
+    .all-hobbies {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hobbie-photo,
+    .container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact-title {
+        font-size: 96px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        font-size: 24px;
     }
 
   }
