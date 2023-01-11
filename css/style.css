@@ -10,7 +10,7 @@ header {
     border-radius: 14px;
 }
 
-.top-bar ul {
+.top-bar ul { 
     text-align: center;
     border-bottom: 1px solid #341D22;
     list-style-type: none;
@@ -474,5 +474,4 @@ h3 {
         height: 150px;
         font-size: 24px;
     }
-
   }

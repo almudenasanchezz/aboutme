@@ -8,7 +8,7 @@ elementosAcordeon.forEach(accordionButtonNode => {
     if (contentNodeWrapper.style.maxHeight) {
       contentNodeWrapper.style.maxHeight = null;
     } else {
-      contentNodeWrapper.style.maxHeight = `${contentNode.clientHeight+ 300}px`;
+      contentNodeWrapper.style.maxHeight = `${contentNode.clientHeight+ 400}px`;
     }
   });
 })
