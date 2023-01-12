@@ -389,7 +389,56 @@ h3 {
     cursor: pointer;
 }
 
-@media all and (min-width: 415px) {
+@media all and (min-width: 580px) {
+    h1,
+    .hi,
+    .phrase {
+        font-size: 32px;
+    }
+
+    button,
+    h3,
+    .accordion,
+    .accordion-last,
+    .hobbie-description,
+    .top-bar a,
+    .low-bar a {
+        font-size: 20px;
+    }
+
+    .section-title,
+    .section-title-centered,
+    .section-title-centered-white {
+        font-size: 40px;
+    }
+
+    .h2-title {
+        font-size: 24px;
+    }
+
+    .description-content,
+    .fun-content {
+        font-size: 16px;
+    }
+
+    .photo .layer p,
+    .contact-text {
+        font-size: 24px;
+    }
+
+    .contact-title {
+        font-size: 64px;
+    }
+
+    .circle {
+        width: 125px;
+        height: 125px;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (min-width: 850px) {
     .hi {
         margin-top: -180px;
         margin-bottom: 130px;
