@@ -439,7 +439,13 @@ h3 {
 
 
 @media all and (min-width: 850px) {
+    body {
+        margin: 24px;
+        margin-top: 36px;
+    } 
+
     header {
+        padding: 24px;
         padding-bottom: 36px;
     }
     
@@ -455,6 +461,10 @@ h3 {
 
     .content-up {
         margin-bottom: 0px;
+    }
+
+    section {
+        padding: 24px;
     }
 
     h1,
