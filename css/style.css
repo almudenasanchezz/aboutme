@@ -10,7 +10,7 @@ header {
     border-radius: 14px;
 }
 
-.top-bar ul { 
+.topbar__list { 
     text-align: center;
     border-bottom: 1px solid #341D22;
     list-style-type: none;
@@ -20,18 +20,18 @@ header {
     justify-content: space-between;
 }
 
-.top-bar li {
+.topbar__list__item {
     display: flex;
 }
 
-.top-bar a {
+.topbar__link {
     color: #341D22;
     text-decoration:none;
     font-size: 16px;
     font-family: 'Courier';
 }
 
-.top-bar a:hover {
+.topbar__link:hover {
     font-weight: bold;
     cursor: pointer;
 }
@@ -369,7 +369,7 @@ h3 {
     font-size: 16px;
 } 
 
-.low-bar ul {
+.lowbar__list {
     text-align: right;
     border-bottom: 1px solid #341D22;
     list-style-type: none;
@@ -377,14 +377,14 @@ h3 {
     padding: 0;
 }
 
-.low-bar a {
+.lowbar__link {
     color: #341D22;
     text-decoration:none;
     font-size: 16px;
     font-family: 'Courier';
 }
 
-.low-bar a:hover {
+.lowbar__link:hover {
     font-weight: bold;
     cursor: pointer;
 }
@@ -406,8 +406,8 @@ h3 {
     .accordion,
     .accordion-last,
     .hobbie-description,
-    .top-bar a,
-    .low-bar a {
+    .topbar__link,
+    .lowbar__link {
         font-size: 20px;
     }
 
@@ -492,8 +492,8 @@ h3 {
     .accordion,
     .accordion-last,
     .hobbie-description,
-    .top-bar a,
-    .low-bar a {
+    .topbar__link,
+    .lowbar__link {
         font-size: 24px;
     }
 
