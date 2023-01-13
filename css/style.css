@@ -389,6 +389,11 @@ h3 {
     cursor: pointer;
 }
 
+
+
+/* ---> RESPONSIVE */
+/* For tablets */
+
 @media all and (min-width: 580px) {
     h1,
     .hi,
@@ -437,6 +442,8 @@ h3 {
     }
 }
 
+
+/* For desktop */
 
 @media all and (min-width: 1024px) {
     body {
@@ -550,6 +557,7 @@ h3 {
     }
   }
 
+  /* For very large screens */
 
   @media all and (min-width: 2881px) {
     body {
