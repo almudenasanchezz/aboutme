@@ -551,9 +551,9 @@ h3 {
   }
 
 
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 2881px) {
     body {
-        max-width: 1200px;
+        max-width: 2880px;
         margin-left: auto;
         margin-right: auto;
     }
