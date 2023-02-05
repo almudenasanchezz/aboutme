@@ -237,7 +237,7 @@ h3 {
     display: flex;
 }
 
-.photo .layer {
+.layer {
     position: absolute;
     background: rgba(150, 123, 122, 0.7);
     top: 0;
@@ -256,7 +256,7 @@ h3 {
     visibility: visible;
 }
 
-.photo .layer p {
+.layer-text {
     color: white;
     font-size: 20px;
     font-family: 'Courier';
@@ -426,7 +426,7 @@ h3 {
         font-size: 16px;
     }
 
-    .photo .layer p,
+    .layer-text,
     .contact-text {
         font-size: 24px;
     }
@@ -535,7 +535,7 @@ h3 {
         flex-direction: row;
     }
 
-    .photo .layer p,
+    .layer-text,
     .contact-text {
         font-size: 32px;
     }
