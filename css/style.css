@@ -206,6 +206,7 @@ h3,
     padding-right: 1rem;
     font-family: 'Open Sans';
     font-weight: normal;
+    color: white;
 }
 
 .accordion:after {
