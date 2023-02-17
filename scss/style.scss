@@ -1,0 +1,28 @@
+/* Variables */
+@import './variables/custom-properties.scss';
+@import './variables/variables-sass';
+@import './variables/mixins';
+
+/* Base */
+@import './base/tipography'; /* h1,h2,p... */
+@import './base/buttons';
+
+/* Layout */
+@import './layout/site';
+@import './layout/front-page';
+@import './layout/aboutme-section';
+@import './layout/two-columns-section';
+@import './layout/hobbie-section';
+@import './layout/contact-section';
+
+/* Componentes */
+@import './components/top-bar';
+@import './components/accordion-menu';
+@import './components/images';
+@import './components/phrase';
+@import './components/low-bar';
+
+
+
+
+

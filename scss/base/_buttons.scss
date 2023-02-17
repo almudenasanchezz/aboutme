@@ -1,0 +1,54 @@
+button {
+    border: none;
+    background-color: var(--secondary-color); /* #56704C  es otro color*/
+    color: var(--light-color-text);
+    font-family: var(--secondary-font);
+    font-size: var(--font-xx-small);
+    font-weight: var(--bold-font-weight);
+    padding-top: var(--padding-xxs);
+    padding-right: var(--padding-s);
+    padding-bottom: var(--padding-xxs);
+    padding-left: var(--padding-s);
+    border-radius: var(--main-border-radius);
+    cursor: pointer;
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-x-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-small);
+    }
+}
+
+.see-more-button {
+    color: var(--light-color-text);
+    background-color: var(--dark-color-text);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    line-height: 0;
+    font-size: var(--font-medium);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: var(--font-xx-small);
+
+    @include bp($bp-tablet) {
+        width: 125px;
+        height: 125px;
+        font-size: var(--font-x-small);
+    }
+
+    @include bp($bp-desktop) {
+        width: 150px;
+        height: 150px;
+        font-size: var(--font-small);
+    }
+} 

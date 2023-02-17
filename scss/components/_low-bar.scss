@@ -1,0 +1,27 @@
+.lowbar__list {
+    text-align: right;
+    border-bottom: 1px solid #341D22;
+    list-style-type: none;
+    margin: auto;
+    padding: var(--padding-none);
+}
+
+.lowbar__link {
+    color: var(--dark-color-text);
+    text-decoration:none;
+    font-size: var(--font-xx-small);
+    font-family: var(--third-font);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-x-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-small);
+    }
+}
+
+.lowbar__link:hover {
+    font-weight: var(--bold-font-weight);
+    cursor: pointer;
+}

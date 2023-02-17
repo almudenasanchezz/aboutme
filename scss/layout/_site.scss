@@ -1,0 +1,36 @@
+body {
+    margin: var(--margin-xxs);
+    margin-top: var(--margin-s);
+
+    @include bp($bp-desktop) {
+        margin: var(--margin-l);
+    }
+
+    @include bp($bp-large-screen) {
+        max-width: 2880px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+
+header {
+    background-color: var(--main-bg-color);
+    padding: var(--padding-xs);
+    padding-bottom: var(--padding-xxl);
+    border-radius: var(--main-border-radius);
+
+    @include bp($bp-desktop) {
+        padding: var(--padding-m);
+        padding-bottom: var(--padding-l);
+    }
+}
+
+main {
+    @include bp($bp-desktop) {
+        padding-top: var(--padding-none);
+        padding-right: var(--padding-xl);
+        padding-bottom: var(--padding-none);
+        padding-left: var(--padding-xl);
+    }
+}
+

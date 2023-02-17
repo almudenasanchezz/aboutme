@@ -1,0 +1,13 @@
+section {
+    padding: var(--padding-xs);
+    margin-top: var(--margin-xl);
+
+    @include bp($bp-desktop) {
+        padding: var(--padding-m);
+    }
+}
+
+.first-section {
+    margin-top: var(--margin-xxxl);
+    margin-bottom: var(--margin-xxxxl);
+}

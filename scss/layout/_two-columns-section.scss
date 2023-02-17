@@ -1,0 +1,25 @@
+.padre {
+    display: flex;
+    flex-direction: column;
+
+    @include bp($bp-desktop) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.hijo {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-m);
+
+}
+
+.area-content {
+    margin-bottom: auto;
+    color: var(--third-color);
+
+    @include bp($bp-desktop) {
+        text-align: center;
+    }
+}

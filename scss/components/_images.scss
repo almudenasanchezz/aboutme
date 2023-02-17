@@ -1,0 +1,98 @@
+/* General property for all images */
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Section of images with a text layer when hovering */
+
+.fun-content {
+    text-align: center;
+    font-size: var(--font-xxx-small);
+    font-weight: var(--regular-font-weigth);
+    font-family: var(--secondary-font);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-xx-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-x-small);
+    }
+}
+
+.photo {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: flex;
+
+    @include bp($bp-desktop) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.layer {
+    position: absolute;
+    background: rgba(150, 123, 122, 0.7);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo:hover > .layer {
+    opacity: 1;
+    visibility: visible;
+}
+
+.layer-text {
+    color: var(--light-color-text);
+    font-size: var(--font-x-small);
+    font-family: var(--third-font);
+    font-weight: var(--bold-font-weight);
+    margin: var(--margin-none);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-xx-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-medium);
+    }
+}
+
+.up-images {
+    display: flex;
+    gap: var(--gap-s);
+}
+
+.down-images {
+    display: flex;
+    gap: var(--gap-s);
+}
+
+.images {
+    display: flex;
+    gap: var(--gap-s);
+    flex-direction: column;
+
+    @include bp($bp-desktop) {
+        flex-direction: row;
+    }
+}
+
+.without-padding {
+    padding-top: var(--padding-none);
+    padding-right: var(--padding-none);
+    padding-bottom: var(--padding-xs);
+    padding-left: var(--padding-none);
+}

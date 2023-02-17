@@ -1,0 +1,62 @@
+.bg-colored {
+    background-color: var(--main-color);
+    color: var(--light-color-text);
+    border-radius: var(--main-border-radius);
+}
+
+.accordion,
+.accordion-last {
+    color: var(--light-color-text);
+    font-size: var(--font-xx-small);
+    font-weight: var(--semibold-font-weight);
+    font-family: var(--secondary-font);
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    background: none;
+    transition: all 0.4s ease-out;
+    border-radius: 0;
+    border-top: 1px solid var(--light-color-text);
+    padding-left: var(--padding-none);
+    padding-right: var(--padding-none);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-x-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-small);
+    }
+}
+
+.content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: var(--padding-none);
+    max-height: var(--padding-none);
+}
+
+.description-content {
+    font-size: var(--font-xxx-small);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: var(--secondary-font);
+    font-weight: var(--regular-font-weigth);
+    color: var(--light-color-text);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-xx-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-x-small);
+    }
+}
+
+.accordion:after {
+    content: "\002B";
+    float: right;
+    font-weight: var(--semibold-font-weight);
+}

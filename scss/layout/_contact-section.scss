@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+}
+
+.button {
+    display: flex;
+}
+

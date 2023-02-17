@@ -1,0 +1,131 @@
+h1 {
+    font-size: var(--font-small);
+    margin-top: var(--margin-m);
+    margin-bottom: var(--margin-xs);
+    font-family: var(--main-font);
+    font-weight: var(--semibold-font-weight);
+    color: var(--dark-color-text);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-medium);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-x-medium);
+    }
+}
+
+.hi {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: var(--margin-none);
+    font-size: var(--font-small);
+    font-weight: var(--light-font-weight); 
+    font-family: var(--main-font);
+    color: var(--dark-color-text);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-medium);
+    }
+
+    @include bp($bp-desktop) {
+        margin-top: -180px;
+        margin-bottom: var(--margin-huge);
+        font-size: var(--font-x-medium);
+    }
+}
+
+h2,
+.h2 {
+    font-size: var(--font-x-medium);
+    font-weight: var(--bold-font-weight);
+    color: var(--main-color);
+    font-family: var(--main-font);
+    margin: var(--margin-none);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-large);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-x-large);
+    }
+}
+
+p {
+    font-size: var(--font-xx-small);
+    font-weight: var(--regular-font-weigth);
+    font-family: var(--secondary-font);
+    color: var(--dark-color-text);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-x-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-small);
+    }
+}
+
+h3,
+.h3 {
+    font-size: var(--font-x-small);
+    font-weight: var(--bold-font-weight);
+    font-family: var(--secondary-font);
+    color: var(--third-color);
+    margin-top: auto;
+    margin-bottom: auto;
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-medium);
+        text-align: center;
+    }
+}
+
+.centered-title {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: var(--margin-xxs);
+}
+
+.white-title {
+    margin-bottom: var(--margin-s);
+    margin-top: var(--margin-xxxs);
+    color: var(--light-color-text);
+}
+
+.contact-title {
+    display: flex;
+    font-family: var(--main-font);
+    font-size: var(--font-x-large);
+    font-weight: var(--bold-font-weight);
+    color: var(--secondary-color-light);
+    margin: var(--margin-none);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-xx-large);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-xxx-large);
+    }
+}
+
+.contact-text {
+    font-size: var(--font-xx-small);
+    font-weight: var(--light-font-weight);
+    font-family: var(--secondary-font);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-xx-small);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-medium);
+    }
+}

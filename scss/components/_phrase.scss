@@ -1,0 +1,18 @@
+.phrase {
+    font-family: var(--secondary-font);
+    font-size: var(--font-small);
+    font-weight: var(--bold-font-weight);
+    color: var(--fourth-color);
+    text-align: center;
+    margin-top: var(--margin-xxl);
+    margin-bottom: var(--margin-xxs);
+
+    @include bp($bp-tablet) {
+        font-size: var(--font-medium);
+    }
+
+    @include bp($bp-desktop) {
+        font-size: var(--font-x-medium);
+    }
+}
+

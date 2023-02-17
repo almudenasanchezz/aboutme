@@ -1,0 +1,75 @@
+:root{
+    
+    /* margins */
+    --margin-none: 0px;
+    --margin-xxxs: 6px;
+    --margin-xxs: 12px;
+    --margin-xs: 18px;
+    --margin-s: 24px;
+    --margin-m: 26px;
+    --margin-l: 36px;
+    --margin-xl: 42px;
+    --margin-xxl: 54px;
+    --margin-xxxl: 56px;
+    --margin-xxxxl: 86px;
+    --margin-huge: 130px;
+    --margin-xhuge: 156px;
+
+    /* paddings */
+    --padding-none: 0px;
+    --padding-xxs: 9px;
+    --padding-xs: 12px;
+    --padding-s: 16px;
+    --padding-m: 24px;
+    --padding-l: 36px;
+    --padding-xl: 48px;
+    --padding-xxl: 96px;
+
+    /* gap */
+    --gap-s: 6px;
+    --gap-m: 24px;
+    --gap-l: 30px;
+
+    /* border-radius */
+    --main-border-radius: 14px;
+
+    /* fonts */
+    --main-font: 'Fraunces';
+    --secondary-font: 'Open Sans';
+    --third-font: 'Courier';
+    --bold-font-weight: 700;
+    --semibold-font-weight: 600;
+    --regular-font-weigth: 400;
+    --light-font-weight: 300;
+
+    /* font-size */
+    --font-xxx-small: 14px;
+    --font-xx-small: 16px;
+    --font-x-small: 20px;
+    --font-small: 24px;
+    --font-medium: 32px;
+    --font-x-medium: 36px;
+    --font-large: 40px;
+    --font-x-large: 48px;
+    --font-xx-large: 64px;
+    --font-xxx-large: 96px;
+
+    /* colors */
+    --white: hsl(0,0%,100%);
+    --offwhite: hsl(36,12%,92%);
+    --darkbrown: hsl(347,28%,16%);
+    --green: hsl(103,19%,37%);
+    --light-green: hsl(103,16%,65%);
+    --plum: hsl(332,27%,43%);
+    --brown: hsl(3,9%,39%);
+    --grey: hsl(0,1%,47%);
+    --main-color: var(--plum);
+    --main-bg-color: var(--offwhite);
+    --secondary-color: var(--green);
+    --secondary-color-light: var(--light-green);
+    --third-color: var(--brown);
+    --fourth-color: var(--grey);
+    --dark-color-text: var(--darkbrown);
+    --light-color-text: var(--white);
+
+}
